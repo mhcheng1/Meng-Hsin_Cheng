@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type = "text/css">
+        
+    </style>
+    <title>Game of Life</title>
+</head>
+<body>
+    <canvas width="600" height="400"></canvas>
+    <script src = 'script.js'> </script>
+    <div class="btns">
+        <input type="range" min="60" max="100" value="80" class="slider" id="myRange">
+        <button class="btn-pause" type="button">PAUSE</button>
+        <button onClick="window.location.reload();">RESET</button>
+    </div>
+    <div>
+        <head>
+            <h1 style = font-size:40px;>
+                Game of Life
+            </h1>
+        </head>
+        <div>
+            <p style= color:blue;font-size:20px;> 1. Any live cell with fewer than two live neighbours dies, as if by underpopulation.</p>
+            <p style= color:blue;font-size:20px;> 2. Any live cell with two or three live neighbours lives on to the next generation.</p>
+            <p style= color:blue;font-size:20px;> 3. Any live cell with more than three live neighbours dies, as if by overpopulation.</p>
+            <p style= color:blue;font-size:20px;> 4. Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.</p>
+        </div>
+    </div>
+</body>
+</html>
