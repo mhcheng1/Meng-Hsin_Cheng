@@ -1,6 +1,7 @@
 # Game of Life
 
 This is a simulator in Javascript based on John Conway's Game of Life: A zero-player game which evolves from its initail state. <br>
+Link: https://mhcheng1.github.io/mhcheng-GameofLife.github.io/ <br>
 
 The simulator includes a pause button a slider to change the evolving speed. <br>
 
