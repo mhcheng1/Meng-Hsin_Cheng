@@ -1,7 +1,7 @@
 # Testing
 
-This is sample test.
-Test
+This is sample test. <br>
+Test <br>
 
-*Ex1
-*Ex2
+Ex1
+Ex2
