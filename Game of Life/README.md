@@ -1,7 +1,10 @@
 # Game of Life
 
 This is a simulator in Javascript based on John Conway's Game of Life: A zero-player game which evolves from its initail state. <br>
-It follows the following rules: <br>
+
+The simulator includes a pause button a slider to change the evolving speed. <br>
+
+It follows the rules below and evolve constantly: <br>
 
 1. Any live cell with fewer than two live neighbours dies, as if by underpopulation.
 
