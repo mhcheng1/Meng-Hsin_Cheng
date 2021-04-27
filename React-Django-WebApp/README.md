@@ -6,7 +6,7 @@ It allows a host to create a game room and enters the inputs for the object and 
 <img src="https://media.giphy.com/media/3tsNgLOagEidwMB62X/giphy.gif" width="300">
 
 
-To use the program the user will need to install install node in the frontend folder and the following packages:
+To run the program the user will need to install install node in the frontend folder and the following packages:
 1.	npm init -y					            : create node (terminal)
 2.	npm i webpack webpack-cli --save-dev	: install webpack (terminal)
 3.	npm i @babel/core babel-loader @babel/preset-env @babel/preset-react --save-dev
@@ -15,3 +15,9 @@ To use the program the user will need to install install node in the frontend fo
 6.	npm install @material-ui/core 			: templates for styling preset
 7.	npm install @babel/plugin-proposal-class-properties  
 8.	npm install @material-ui/icons
+
+Navigate to the beginning folder to run the backend:
+* python ./manage.py runserver
+
+Then run React in the frontend folder:
+* npm run dev
