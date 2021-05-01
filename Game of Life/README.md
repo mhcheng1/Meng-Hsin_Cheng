@@ -16,4 +16,4 @@ It follows the rules below and evolve constantly: <br>
 4. Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
 
 <br>
-<img src= "https://media.giphy.com/media/fI9UwU5nUYk76gGXu1/giphy.gif">
+<img src= "https://media.giphy.com/media/fI9UwU5nUYk76gGXu1/giphy.gif" width=400>
