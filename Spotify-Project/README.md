@@ -6,7 +6,7 @@ User can search and play songs directly using the application.
 
 * Documentation for Spotify Web API: https://developer.spotify.com/documentation/web-api/
 
-Demo: <br>
+## Demo: <br><br>
 <img src="https://media.giphy.com/media/egsrwOlmtGoZz8TiMa/giphy.gif" width="500">
 
 
