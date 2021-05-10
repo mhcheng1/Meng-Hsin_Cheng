@@ -8,8 +8,8 @@ User can search and play songs directly using the application.
 
 ## Demo: <br>
 <img src="https://media.giphy.com/media/egsrwOlmtGoZz8TiMa/giphy.gif" width="500">
-
 <br>
+
 ## Main Libraries Used for this App
 * npm i express spotify-web-api-node
 * npm i react-spotify-web-playback
