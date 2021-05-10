@@ -6,10 +6,10 @@ User can search and play songs directly using the application.
 
 * Documentation for Spotify Web API: https://developer.spotify.com/documentation/web-api/
 
-## Demo: <br><br>
+## Demo: <br>
 <img src="https://media.giphy.com/media/egsrwOlmtGoZz8TiMa/giphy.gif" width="500">
 
-
-Main Libraries Used for this App
+<br>
+## Main Libraries Used for this App
 * npm i express spotify-web-api-node
 * npm i react-spotify-web-playback
