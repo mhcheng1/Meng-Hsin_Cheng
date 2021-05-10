@@ -12,4 +12,6 @@ User can search and play songs directly using the application.
 
 ## Main Libraries Used for this App
 * npm i express spotify-web-api-node
+* https://www.npmjs.com/package/spotify-web-api-node
 * npm i react-spotify-web-playback
+* https://www.npmjs.com/package/react-spotify-web-playback
