@@ -1,22 +1,33 @@
 const express = require('express');
 const SpotifyWebApi = require("spotify-web-api-node")
-// encountered issue with CORS policy blocking
-const cors = require('cors');
-// use for parsing json
-const bodyParser = require('body-parser');
-//const configData = require('./config-data');
+const cors = require('cors');   // encountered issue with CORS policy blocking
+require('dotenv').config()
+const mongoose = require('mongoose');
 
 const app = express();
 app.use(cors());
-app.use(bodyParser.json());
+app.use(express.json());
+
+const uri = process.env.ATLAS_URI;
+
+mongoose.connect(uri, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true}
+);
+const connection = mongoose.connection;
+connection.once('open', () => {
+  console.log("MongoDB database connection established successfully");
+})
+
+const usersRouter = require('./routes/history');
+app.use('/history', usersRouter);
+
 
 app.post('./refresh', (req, res) => {
     const refreshToken = req.body.refreshToken
     const spotifyApi = new SpotifyWebApi({
         refreshToken,
-        clientId : configData.clientId,
-        clientSecret : configData.clientSecret,
-        redirectUri : configData.redirectUri,
+        clientId : '9df59c7cd0ed4590a8d50badc32fe8a1',
+        clientSecret : process.env.CLIENT_SECRET,
+        redirectUri : 'http://localhost:3000',
     })
     spotifyApi.refreshAccessToken().then(data => {
         res.json({
@@ -36,9 +47,9 @@ app.post('./refresh', (req, res) => {
 app.post('/login', (req, res) => {
     const code = req.body.code
     const spotifyApi = new SpotifyWebApi({
-        clientId : configData.clientId,
-        clientSecret : configData.clientSecret,
-        redirectUri : configData.redirectUri,
+        clientId : '9df59c7cd0ed4590a8d50badc32fe8a1',
+        clientSecret : process.env.CLIENT_SECRET,
+        redirectUri : 'http://localhost:3000',
     })
 
     spotifyApi.authorizationCodeGrant(code).then(data=>{
