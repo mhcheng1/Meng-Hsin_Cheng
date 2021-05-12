@@ -4,7 +4,7 @@ This web application is built with the MERN stack (MongoDB, Express, React, Node
 User can search and play songs directly using the application. <br>
 It includes features such as listing the favorite artists of the user and keeping track of play history. <br>
 
-* Documentation for Spotify Web API: https://developer.spotify.com/documentation/web-api/
+* Documentation for Spotify Web API: https://developer.spotify.com/documentation/web-api/ <br>
 
 ## Libraries Used
 * spotify-web-api-node
@@ -17,7 +17,7 @@ It includes features such as listing the favorite artists of the user and keepin
 * react-bootstrap
 * react-router-dom
 * axios
-
+<br>
 
 ## Demo: <br>
 <img src="https://media.giphy.com/media/fjPJcAJbz0yRQ5xmxw/giphy.gif" width="650">
