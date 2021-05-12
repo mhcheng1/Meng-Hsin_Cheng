@@ -20,5 +20,5 @@ It includes features such as listing the favorite artists of the user and keepin
 
 
 ## Demo: <br>
-<img src="https://media.giphy.com/media/fjPJcAJbz0yRQ5xmxw/giphy.gif" width="500">
+<img src="https://media.giphy.com/media/fjPJcAJbz0yRQ5xmxw/giphy.gif" width="700">
 <br>
