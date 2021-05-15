@@ -1,6 +1,6 @@
 # Spotify Song Preferences and Player
 
-This web application is built with the MERN stack (MongoDB, Express, React, Node) for Spotify Users. <br>
+This web application is built with the MERN stack (MongoDB, Express, React, Node) and MySQL for Spotify Users. <br>
 
 Analyzes the user's profile and present the following graphs:
 * A tree map of the user's favorite genres
