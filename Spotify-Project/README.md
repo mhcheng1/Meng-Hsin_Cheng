@@ -9,7 +9,6 @@ Analyzes the user's profile and present the following graphs:
 * An area chart of the duration of songs
 * A radio graph of the user's preference of audio features in a song, such as danceability and liveness
 
-* Documentation for Spotify Web API: https://developer.spotify.com/documentation/web-api/ <br><br>
 
 ## Libraries Used
 * spotify-web-api-node
@@ -25,6 +24,8 @@ Analyzes the user's profile and present the following graphs:
 * recharts
 * MySQL
 <br>
+
+Documentation for Spotify Web API: https://developer.spotify.com/documentation/web-api/ <br><br>
 
 ## Demo: <br>
 <img src="https://media.giphy.com/media/fjPJcAJbz0yRQ5xmxw/giphy.gif" width="650">
