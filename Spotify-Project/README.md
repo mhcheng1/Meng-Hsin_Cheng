@@ -8,7 +8,7 @@ Analyzes the user's profile and present the following graphs:
 * An area chart of the duration of songs
 * A radio graph of the user's preference of audio features in a song, such as danceability and liveness
 
-<br>User can search and play songs directly using the application. <br>
+<br>User can search and play songs directly using the application. Played songs are recorded.<br>
 
 ## Libraries Used
 * spotify-web-api-node
