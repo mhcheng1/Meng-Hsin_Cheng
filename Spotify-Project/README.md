@@ -9,7 +9,7 @@ Analyzes the user's profile and present the following graphs:
 * A radio graph of the user's preference of audio features in a song, such as danceability and liveness
 
 <br>User can search and play songs directly using the application. Played songs are recorded.<br>
-
+### Link to the app: https://compassionate-swartz-d79cd2.netlify.app/ <br>
 ## Libraries Used
 * spotify-web-api-node
 * https://www.npmjs.com/package/spotify-web-api-node
