@@ -63,11 +63,11 @@ function drawCanvas(arr) {
     for (var i = 0; i < width; i++) {
         for (var j = 0; j < height; j++) {
             if (arr[i][j] == 1) {
-                c.fillStyle = "black";
+                c.fillStyle = "white";
                 c.fillRect(j * res, i * res, res, res);
             }
             else {
-                c.fillStyle = "white";
+                c.fillStyle = "black";
                 c.fillRect(j * res, i * res, res, res);
             }
         }

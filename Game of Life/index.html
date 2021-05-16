@@ -5,29 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style type = "text/css">
-        
+        h1 {text-align: center;}
+        p {text-align: center;}
+        canvas {
+                padding-left: 0;
+                padding-right: 0;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top:10px;
+                display: block;
+        }
+        .container {display: flex;
+                    justify-content: center;
+                    align-items: center;}
+        .btns {margin-top:20px}
     </style>
     <title>Game of Life</title>
 </head>
-<body>
+<body style="background-color:black;">
     <canvas width="600" height="400"></canvas>
     <script src = 'script.js'> </script>
-    <div class="btns">
-        <input type="range" min="60" max="100" value="80" class="slider" id="myRange">
-        <button class="btn-pause" type="button">PAUSE</button>
-        <button onClick="window.location.reload();">RESET</button>
+    <div class="container">
+        <div class="btns">
+            <input type="range" min="60" max="100" value="80" class="slider" id="myRange">
+            <button class="btn-pause" type="button">PAUSE</button>
+            <button onClick="window.location.reload();">RESET</button>
+        </div>
     </div>
     <div>
         <head>
-            <h1 style = font-size:40px;>
+            <h1 style = font-size:40px;color:white;>
                 Game of Life
             </h1>
         </head>
         <div>
-            <p style= color:blue;font-size:20px;> 1. Any live cell with fewer than two live neighbours dies, as if by underpopulation.</p>
-            <p style= color:blue;font-size:20px;> 2. Any live cell with two or three live neighbours lives on to the next generation.</p>
-            <p style= color:blue;font-size:20px;> 3. Any live cell with more than three live neighbours dies, as if by overpopulation.</p>
-            <p style= color:blue;font-size:20px;> 4. Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.</p>
+            <p style= color:white;font-size:20px;> 1. Any live cell with fewer than two live neighbours dies, as if by underpopulation.</p>
+            <p style= color:white;font-size:20px;> 2. Any live cell with two or three live neighbours lives on to the next generation.</p>
+            <p style= color:white;font-size:20px;> 3. Any live cell with more than three live neighbours dies, as if by overpopulation.</p>
+            <p style= color:white;font-size:20px;> 4. Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.</p>
         </div>
     </div>
 </body>
