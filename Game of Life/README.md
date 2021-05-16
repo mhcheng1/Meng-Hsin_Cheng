@@ -16,4 +16,4 @@ It follows the rules below and evolve constantly: <br>
 4. Any dead cell with exactly three live neighbours becomes a live cell, as if by reproduction.
 
 <br>
-<a href="https://mhcheng1.github.io/mhcheng-GameofLife.github.io/"> <img src= "https://media.giphy.com/media/fI9UwU5nUYk76gGXu1/giphy.gif" width=500>
+<a href="https://mhcheng1.github.io/mhcheng-GameofLife.github.io/"> <img src= "https://media.giphy.com/media/PMBlVzGOkl78fHJY5i/giphy.gif" width=500>
