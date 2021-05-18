@@ -8,6 +8,7 @@ Analyzes the user's profile and present the following graphs:
 * An area chart of the duration of songs
 * A radio graph of the user's preference of audio features in a song, such as danceability and liveness
 
+<br>User can search for a song based on the mood. An example would be a user want to find a song that is fast and suitable for dancing.
 <br>User can search and play songs directly using the application. Played songs are recorded.<br>
 ### Link to the app: https://compassionate-swartz-d79cd2.netlify.app/ <br>
 ## Libraries Used
@@ -28,7 +29,7 @@ Analyzes the user's profile and present the following graphs:
 Documentation for Spotify Web API: https://developer.spotify.com/documentation/web-api/ <br><br>
 
 ## Demo: <br>
-<img src="https://media.giphy.com/media/fjPJcAJbz0yRQ5xmxw/giphy.gif" width="650">
+<img src="https://media.giphy.com/media/pzyO7MbpWp0lb72W5Z/giphy.gif" width="650">
 <br>
 
 ## Graph Examples
