@@ -18,7 +18,6 @@ Analyzes the user's profile and present the following graphs:
 * https://www.npmjs.com/package/react-spotify-web-playback
 * express
 * cors
-* mongoose
 * react-bootstrap
 * react-router-dom
 * axios
