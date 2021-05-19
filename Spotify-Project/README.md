@@ -1,6 +1,8 @@
 # Spotify Song Preferences and Player
 
-### Link: https://mhcheng-spotifyapp.netlify.app/ <br>
+### Link: https://mhcheng-spotifyapp.netlify.app/ <br><br>
+
+## Features <br>
 This web application is built with ReactJS/Express/Node/MySQL for Spotify Users. <br>
 
 Analyzes the user's profile and present the following graphs:
