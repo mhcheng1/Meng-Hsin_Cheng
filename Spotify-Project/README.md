@@ -1,5 +1,6 @@
 # Spotify Song Preferences and Player
 
+### Link: https://mhcheng-spotifyapp.netlify.app/ <br>
 This web application is built with ReactJS/Express/Node/MySQL for Spotify Users. <br>
 
 Analyzes the user's profile and present the following graphs:
@@ -10,7 +11,7 @@ Analyzes the user's profile and present the following graphs:
 
 <br>User can search for a song based on the mood. For instance a user can search for a slow groovy song suitable for dancing.
 <br>User can search and play songs directly using the application. Played songs are recorded.<br>
-### Link to the app: https://mhcheng-spotifyapp.netlify.app/ <br>
+
 ## Libraries Used
 * spotify-web-api-node
 * https://www.npmjs.com/package/spotify-web-api-node
