@@ -8,7 +8,7 @@ Analyzes the user's profile and present the following graphs:
 * An area chart of the duration of songs
 * A radio graph of the user's preference of audio features in a song, such as danceability and liveness
 
-<br>User can search for a song based on the mood. An example would be a user want to find a song that is fast and suitable for dancing.
+<br>User can search for a song based on the mood. For instance a user can search for a slow groovy song suitable for dancing.
 <br>User can search and play songs directly using the application. Played songs are recorded.<br>
 ### Link to the app: https://mhcheng-spotifyapp.netlify.app/ <br>
 ## Libraries Used
