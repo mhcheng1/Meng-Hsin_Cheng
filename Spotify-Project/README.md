@@ -3,10 +3,10 @@
 This web application is built with ReactJS/Express/Node/MySQL for Spotify Users. <br>
 
 Analyzes the user's profile and present the following graphs:
-** A tree map of the user's favorite genres
-** A tree map of the user's favorite artist
-** An area chart of the duration of songs
-** A radio graph of the user's preference of audio features in a song, such as danceability and liveness
+* A tree map of the user's favorite genres
+* A tree map of the user's favorite artist
+* An area chart of the duration of songs
+* A radio graph of the user's preference of audio features in a song, such as danceability and liveness
 
 <br>User can search for a song based on the mood. For instance a user can search for a slow groovy song suitable for dancing.
 <br>User can search and play songs directly using the application. Played songs are recorded.<br>
