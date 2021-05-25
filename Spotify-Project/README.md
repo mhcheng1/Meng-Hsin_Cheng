@@ -3,7 +3,8 @@
 #### Link: https://mhcheng-spotifyapp.netlify.app/ <br><br>
 
 ## Features <br>
-This web application is built with ReactJS/Express/Node/MySQL for Spotify Users. <br>
+This web application is built with ReactJS/Express/Node/MySQL <br>
+User will be redirected to Spotify OAuth page for login <br>
 
 Analyzes the user's profile and present the following graphs:
 * A tree map of the user's favorite genres
