@@ -4,7 +4,7 @@
 
 ## Features <br>
 This web application is built with ReactJS/Express/Node/MySQL <br>
-User will be redirected to Spotify OAuth page for login <br>
+Uses spotify OAuth page for login <br>
 
 Analyzes the user's profile and present the following graphs:
 * A tree map of the user's favorite genres
