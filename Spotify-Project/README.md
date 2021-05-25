@@ -38,3 +38,4 @@ Documentation for Spotify Web API: https://developer.spotify.com/documentation/w
 <img src= "https://github.com/mhcheng1/Meng-Hsin_Cheng/blob/main/Spotify-Project/demo/graph3.png" width="650">
 <img src= "https://github.com/mhcheng1/Meng-Hsin_Cheng/blob/main/Spotify-Project/demo/graph2.png" width="650">
 <img src= "https://github.com/mhcheng1/Meng-Hsin_Cheng/blob/main/Spotify-Project/demo/graph1.png" width="650">
+<img src= "https://github.com/mhcheng1/Meng-Hsin_Cheng/blob/main/Spotify-Project/demo/custom_search.png" width="650">
