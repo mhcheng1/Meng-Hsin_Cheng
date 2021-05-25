@@ -1,6 +1,8 @@
 # Spotify Song Preferences and Player
 
-#### Link: https://mhcheng-spotifyapp.netlify.app/ <br><br>
+#### Link: https://mhcheng-spotifyapp.netlify.app/ <br>
+#### Client Repository for Netlify: https://github.com/mhcheng1/Spotify_Client <br><br>
+
 
 ## Features <br>
 This web application is built with ReactJS/Express/Node/MySQL <br>
