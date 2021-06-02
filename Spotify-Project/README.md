@@ -34,7 +34,7 @@ Analyzes the user's profile and present the following graphs:
 Documentation for Spotify Web API: https://developer.spotify.com/documentation/web-api/ <br><br>
 
 ## Demo: <br>
-<img src="https://media.giphy.com/media/pzyO7MbpWp0lb72W5Z/giphy.gif" width="650">
+<img src="https://github.com/mhcheng1/Meng-Hsin_Cheng/blob/main/Spotify-Project/demo/SpotifyApp.gif" width="650">
 <br>
 
 ## Examples of Features
